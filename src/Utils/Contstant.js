@@ -1,0 +1,1 @@
+export const saveInfo="This contents will be saved on prepare document only!"

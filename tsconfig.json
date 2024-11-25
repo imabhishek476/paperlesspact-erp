@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "module": "esnext",
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "noEmit": true,
+    "strict": true,
+    "baseUrl": ".",
+    "typeRoots": [
+      "node_modules/@types",
+      "libdefs/globals"
+    ],
+    "types":["node"],
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "paths": {
+        "@/*": ["./src/*"],
+        "shared/canUseDOM": ["./src/components/LexicalTemplatePlayground/lexical-playground/src/shared/canUseDOM.ts"],
+        "shared/invariant": ["./src/components/LexicalTemplatePlayground/lexical-playground/src/shared/invariant.ts"],
+        "shared/environment": ["./src/components/LexicalTemplatePlayground/lexical-playground/src/shared/environment.ts"],
+        "shared/useLayoutEffect": ["./src/components/LexicalTemplatePlayground/lexical-playground/src/shared/useLayoutEffect.ts"],
+        "@playground/*":["./src/components/LexicalTemplatePlayground/lexical-playground/src/*"]
+      }
+  },
+  "include": [
+    "./src/components/LexicalTemplatePlayground/lexical-playground"
+  ],
+  "exclude": [
+    "**/__tests__/**",
+    "**/dist/**",
+    "**/npm/**",
+    "**/node_modules/**",
+    "./packages/playwright-core/**"
+  ],
+  "typedocOptions": {
+    "logLevel": "Verbose"
+  },
+  "ts-node": {
+    "require": [
+      "tsconfig-paths/register"
+    ],
+    "transpileOnly": true
+  }
+}

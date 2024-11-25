@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@lexical-playground/*":["./src/components/LexicalTemplatePlayground/lexical-playground/src/*"]
+    }
+  }
+}

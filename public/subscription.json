@@ -1,0 +1,99 @@
+{
+  "title": "Simple, scalable pricing",
+  "subtitle": "No extra charges. No hidden fees.",
+  "discount": 46,
+  "data": [
+    {
+      "title": "Free",
+      "description": "For creating impressive documents that generate results.",
+      "monthlyCost": 0,
+      "yearlyCost": 0,
+      "quota": 5,
+      "cta": "Go To Dashboard",
+      "featureTitle": "Key features:",
+      "features": [
+        "Unlimited document uploads and e-Signatures",
+        "Templates",
+        "Real-time tracking and notifications",
+        "Rich media drag and drop document editor",
+        "Document analytics",
+        "24/7 email and chat support"
+      ]
+    },
+    {
+      "title": "Essentials",
+      "description": "For creating impressive documents that generate results.",
+      "monthlyCost": 35,
+      "yearlyCost": 19,
+      "quota": 5,
+      "cta": "Request A Demo",
+      "featureTitle": "Key features:",
+      "features": [
+        "Unlimited document uploads and e-Signatures",
+        "Templates",
+        "Real-time tracking and notifications",
+        "Rich media drag and drop document editor",
+        "Document analytics",
+        "24/7 email and chat support"
+      ]
+    },
+    {
+      "title": "Business",
+      "description": "For seamless integrations and sending documents in bulk.",
+      "monthlyCost": 65,
+      "yearlyCost": 49,
+      "isPopular": true,
+      "quota": 50,
+      "cta": "Request A Demo",
+      "featureTitle": "Everything in Essentials, plus:",
+      "features": [
+        "Unlimited document uploads and e-Signatures",
+        "CRM and Zapier integrations",
+        "Content library",
+        "Custom branding",
+        "Forms*",
+        "Bulk send*"
+      ]
+    },
+    {
+      "title": "Enterprise",
+      "description": "For creating impressive documents that generate results.",
+      "monthlyCost": 35,
+      "yearlyCost": 19,
+      "quota": 5,
+      "cta": "Request A Demo",
+      "featureTitle": "Everything in Business, plus:",
+      "features": [
+        "Unlimited document uploads and e-Signatures",
+        "Templates",
+        "Real-time tracking and notifications",
+        "Rich media drag and drop document editor",
+        "Document analytics",
+        "24/7 email and chat support"
+      ]
+    }
+  ],
+  "faqTitle": "Questions? We have answers.",
+  "faq": [
+    {
+      "title": "How is Easedraft different from eSignature software like DocuSign?",
+      "body": "eSignature is just one of Easedraft's many features. With Easedraft you create and manage the entire workflow of all your sales documents from proposals to contracts and gain visibility and insights from the interactions your documents receive from your customers."
+    },
+    {
+      "title": "Will I be charged once I start a trial?",
+      "body": "Absolutely not. We will only charge you when you decide to use Easedraft after you've completed your evaluation. Your free trial is valid for 14 days."
+    },
+    {
+      "title": "Is it free to sign a document?",
+      "body": "Absolutely! All of your customers and other recipients of your documents sent from Easedraft can eSign them for free. Once they receive a Easedraft document in their inbox, they can sign it on any device without needing a Easedraft account."
+    },
+    {
+      "title": "Can I change my plan later?",
+      "body": "Sure! You can upgrade your subscription plan from within your account at any time."
+    },
+    {
+      "title": "Can I use Easedraft on my mobile phone or iPad?",
+      "body": "Yes! The Easedraft mobile app takes the process to create, track, approve, negotiate, and eSign documents on-the-go. Just open the app on your phone or iPad and sign away!"
+    }
+  ]
+}
